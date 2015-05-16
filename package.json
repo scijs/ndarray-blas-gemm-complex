@@ -1,6 +1,6 @@
 {
   "name": "ndarray-blas-gemm-complex",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "BLAS-like Level 3 Complex GEMM (matrix-matrix multiplication) for ndarrays",
   "main": "index.js",
   "author": "Ricky Reusser",
