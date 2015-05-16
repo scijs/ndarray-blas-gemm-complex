@@ -4,8 +4,7 @@ var assert = require('assert'),
     ndarray = require('ndarray'),
     gemm = require('../'),
     ndt = require('ndarray-tests'),
-    pool = require('ndarray-scratch'),
-    show = require('ndarray-show')
+    pool = require('ndarray-scratch')
 
 describe("cgemm",function() {
 
