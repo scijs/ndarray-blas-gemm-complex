@@ -1,0 +1,40 @@
+{
+  "name": "ndarray-blas-gemm-complex",
+  "version": "1.0.1",
+  "description": "BLAS-like Level 3 Complex GEMM (matrix-matrix multiplication) for ndarrays",
+  "main": "index.js",
+  "author": "Ricky Reusser",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/scijs/ndarray-blas-gemm-complex.git"
+  },
+  "scripts": {
+    "test": "mocha",
+    "lint": "jshint **.js"
+  },
+  "keywords": [
+    "blas",
+    "ndarray",
+    "gemm",
+    "matrix",
+    "scijs",
+    "linear-algebra"
+  ],
+  "devDependencies": {
+    "chai": "*",
+    "jshint": "*",
+    "mocha": "*",
+    "ndarray": "^1.0.16",
+    "ndarray-tests": "^1.1.2"
+  },
+  "dependencies": {
+    "cwise": "^1.0.5",
+    "ndarray-blas-level1-complex": "^1.0.1"
+  },
+  "browserify": {
+    "transform": [
+      "cwise"
+    ]
+  }
+}
